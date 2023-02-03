@@ -24,4 +24,4 @@ Most project ideas come from the tasks you've been given in your techical sessio
 ## Refrences:
 
 - [Bash Script Cheetsheet](https://devhints.io/bash)
-- [Python Cheetsheet](https://devhints.io/python)
+- [Bash Script Examples](https://www.linode.com/docs/guides/solving-real-world-problems-with-bash-scripts-a-tutorial/)
