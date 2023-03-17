@@ -1,0 +1,7 @@
+# Description: 
+  Every project we work on will be stored in
+  our Github account. Everytime, we want to 
+  publish our source sode, we have a repeated
+  block of code we want to speed up. So this 
+  script will help us do exaclty that.
+
