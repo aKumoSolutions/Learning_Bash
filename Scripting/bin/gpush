@@ -1,13 +1,12 @@
 #!/bin/bash
 
-## get latest
-git pull
+if [ -d .git ]; then
+    git pull
+    git add .
+    git commit -m  "$1"
+    git push -u origin main
+else
+    echo "error: not in git reposotory"
+    echo "currently in: $PWD"
+fi
 
-## adding out files that we want to push
-git add .
-
-## use $1 as our comment message
-git commit -m  "$1"
-
-## pushing our files to github
-git push -u origin main

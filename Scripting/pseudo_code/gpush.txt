@@ -5,3 +5,18 @@
   block of code we want to speed up. So this 
   script will help us do exaclty that.
 
+
+Psuedo code: 
+
+  Check if current directory is a git repository
+  or not. 
+  if [current DIR is a repository]; then
+    publish your code to github
+  else
+    give error message about the current DIR
+  fi
+
+
+Addition: 
+1. find repository
+2. configure git
