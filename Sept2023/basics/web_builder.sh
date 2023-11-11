@@ -5,8 +5,6 @@ if [ $# -le 0 ]; then
 fi
 
 file_path=$1
-
-    
 for web in $(cat $file_path); do 
     name="$(echo $web | awk -F "/" '{ print $9}' | awk -F "." '{ print $1 }')"
     webs=$(ls /var/www/html)
